@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F23514F1458D501000E1998 /* CPPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F23514E1458D501000E1998 /* CPPlugin.m */; };
+		5F2351551458D578000E1998 /* CaffeinePlugin-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F2351501458D578000E1998 /* CaffeinePlugin-Info.plist */; };
+		5F23515D1458D70D000E1998 /* CPActiveAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F23515C1458D70D000E1998 /* CPActiveAction.m */; };
+		5F23515F1458D7B5000E1998 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F23515E1458D7B5000E1998 /* ScriptingBridge.framework */; };
+		5F2351621458DA83000E1998 /* CPActiveActionOptionSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2351611458DA82000E1998 /* CPActiveActionOptionSheetController.m */; };
+		5F2351641458DAC8000E1998 /* ActiveAction.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F2351631458DAC8000E1998 /* ActiveAction.xib */; };
+		8360B556144E62EA00E1FDF2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8360B555144E62EA00E1FDF2 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F23514D1458D501000E1998 /* CPPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPPlugin.h; path = CaffeinePlugin/CPPlugin.h; sourceTree = "<group>"; };
+		5F23514E1458D501000E1998 /* CPPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPPlugin.m; path = CaffeinePlugin/CPPlugin.m; sourceTree = "<group>"; };
+		5F2351501458D578000E1998 /* CaffeinePlugin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CaffeinePlugin-Info.plist"; path = "CaffeinePlugin/CaffeinePlugin-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5F2351511458D578000E1998 /* CaffeinePlugin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CaffeinePlugin-Prefix.pch"; path = "CaffeinePlugin/CaffeinePlugin-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		5F23515A1458D6D0000E1998 /* Caffeine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Caffeine.h; path = CaffeinePlugin/Caffeine.h; sourceTree = SOURCE_ROOT; };
+		5F23515B1458D70D000E1998 /* CPActiveAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPActiveAction.h; path = CaffeinePlugin/CPActiveAction.h; sourceTree = "<group>"; };
+		5F23515C1458D70D000E1998 /* CPActiveAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPActiveAction.m; path = CaffeinePlugin/CPActiveAction.m; sourceTree = "<group>"; };
+		5F23515E1458D7B5000E1998 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		5F2351601458DA82000E1998 /* CPActiveActionOptionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPActiveActionOptionSheetController.h; path = CaffeinePlugin/CPActiveActionOptionSheetController.h; sourceTree = "<group>"; };
+		5F2351611458DA82000E1998 /* CPActiveActionOptionSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPActiveActionOptionSheetController.m; path = CaffeinePlugin/CPActiveActionOptionSheetController.m; sourceTree = "<group>"; };
+		5F2351631458DAC8000E1998 /* ActiveAction.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ActiveAction.xib; path = CaffeinePlugin/ActiveAction.xib; sourceTree = "<group>"; };
+		8360B552144E62EA00E1FDF2 /* Caffeine.skplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Caffeine.skplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8360B555144E62EA00E1FDF2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8360B558144E62EA00E1FDF2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8360B559144E62EA00E1FDF2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8360B55A144E62EA00E1FDF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8360B59A144E663200E1FDF2 /* SKAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAction.h; sourceTree = "<group>"; };
+		8360B59B144E663200E1FDF2 /* SKActionContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKActionContext.h; sourceTree = "<group>"; };
+		8360B59C144E663200E1FDF2 /* SKActionMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKActionMaster.h; sourceTree = "<group>"; };
+		8360B59D144E663200E1FDF2 /* SKOptionSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOptionSheetController.h; sourceTree = "<group>"; };
+		8360B59E144E663200E1FDF2 /* SKPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPlugin.h; sourceTree = "<group>"; };
+		8360B59F144E663200E1FDF2 /* SKPluginMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPluginMaster.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8360B54F144E62EA00E1FDF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F23515F1458D7B5000E1998 /* ScriptingBridge.framework in Frameworks */,
+				8360B556144E62EA00E1FDF2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F23514C1458D4B4000E1998 /* CaffeinePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				8360B55C144E62EA00E1FDF2 /* Supporting Files */,
+				5F23514D1458D501000E1998 /* CPPlugin.h */,
+				5F23514E1458D501000E1998 /* CPPlugin.m */,
+				5F23515A1458D6D0000E1998 /* Caffeine.h */,
+				5F23515B1458D70D000E1998 /* CPActiveAction.h */,
+				5F23515C1458D70D000E1998 /* CPActiveAction.m */,
+				5F2351601458DA82000E1998 /* CPActiveActionOptionSheetController.h */,
+				5F2351611458DA82000E1998 /* CPActiveActionOptionSheetController.m */,
+				5F2351631458DAC8000E1998 /* ActiveAction.xib */,
+			);
+			name = CaffeinePlugin;
+			sourceTree = "<group>";
+		};
+		8360B547144E62EA00E1FDF2 = {
+			isa = PBXGroup;
+			children = (
+				5F23515E1458D7B5000E1998 /* ScriptingBridge.framework */,
+				5F23514C1458D4B4000E1998 /* CaffeinePlugin */,
+				8360B599144E663200E1FDF2 /* SKPlugin */,
+				8360B554144E62EA00E1FDF2 /* Frameworks */,
+				8360B553144E62EA00E1FDF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8360B553144E62EA00E1FDF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8360B552144E62EA00E1FDF2 /* Caffeine.skplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8360B554144E62EA00E1FDF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8360B555144E62EA00E1FDF2 /* Cocoa.framework */,
+				8360B557144E62EA00E1FDF2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8360B557144E62EA00E1FDF2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8360B558144E62EA00E1FDF2 /* AppKit.framework */,
+				8360B559144E62EA00E1FDF2 /* CoreData.framework */,
+				8360B55A144E62EA00E1FDF2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8360B55C144E62EA00E1FDF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2351501458D578000E1998 /* CaffeinePlugin-Info.plist */,
+				5F2351511458D578000E1998 /* CaffeinePlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = SamplePlugin;
+			sourceTree = "<group>";
+		};
+		8360B599144E663200E1FDF2 /* SKPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				8360B59A144E663200E1FDF2 /* SKAction.h */,
+				8360B59B144E663200E1FDF2 /* SKActionContext.h */,
+				8360B59C144E663200E1FDF2 /* SKActionMaster.h */,
+				8360B59D144E663200E1FDF2 /* SKOptionSheetController.h */,
+				8360B59E144E663200E1FDF2 /* SKPlugin.h */,
+				8360B59F144E663200E1FDF2 /* SKPluginMaster.h */,
+			);
+			path = SKPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8360B551144E62EA00E1FDF2 /* Caffeine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8360B564144E62EA00E1FDF2 /* Build configuration list for PBXNativeTarget "Caffeine" */;
+			buildPhases = (
+				8360B54E144E62EA00E1FDF2 /* Sources */,
+				8360B54F144E62EA00E1FDF2 /* Frameworks */,
+				8360B550144E62EA00E1FDF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caffeine;
+			productName = SamplePlugin;
+			productReference = 8360B552144E62EA00E1FDF2 /* Caffeine.skplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8360B549144E62EA00E1FDF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Oomph;
+			};
+			buildConfigurationList = 8360B54C144E62EA00E1FDF2 /* Build configuration list for PBXProject "CaffeinePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8360B547144E62EA00E1FDF2;
+			productRefGroup = 8360B553144E62EA00E1FDF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8360B551144E62EA00E1FDF2 /* Caffeine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8360B550144E62EA00E1FDF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2351551458D578000E1998 /* CaffeinePlugin-Info.plist in Resources */,
+				5F2351641458DAC8000E1998 /* ActiveAction.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8360B54E144E62EA00E1FDF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F23514F1458D501000E1998 /* CPPlugin.m in Sources */,
+				5F23515D1458D70D000E1998 /* CPActiveAction.m in Sources */,
+				5F2351621458DA83000E1998 /* CPActiveActionOptionSheetController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8360B562144E62EA00E1FDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8360B563144E62EA00E1FDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8360B565144E62EA00E1FDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaffeinePlugin/CaffeinePlugin-Prefix.pch";
+				INFOPLIST_FILE = "CaffeinePlugin/CaffeinePlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = skplugin;
+			};
+			name = Debug;
+		};
+		8360B566144E62EA00E1FDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CaffeinePlugin/CaffeinePlugin-Prefix.pch";
+				INFOPLIST_FILE = "CaffeinePlugin/CaffeinePlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = skplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8360B54C144E62EA00E1FDF2 /* Build configuration list for PBXProject "CaffeinePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8360B562144E62EA00E1FDF2 /* Debug */,
+				8360B563144E62EA00E1FDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8360B564144E62EA00E1FDF2 /* Build configuration list for PBXNativeTarget "Caffeine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8360B565144E62EA00E1FDF2 /* Debug */,
+				8360B566144E62EA00E1FDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8360B549144E62EA00E1FDF2 /* Project object */;
+}
